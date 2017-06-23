@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_find"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.fl.Home.FindActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_horizontal_margin"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手机："
+            />
+        <EditText
+            android:id="@+id/et_phone_find"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="请输入手机号"
+            android:layout_weight="1"
+            android:textSize="@dimen/edit_text"
+
+            />
+    </LinearLayout>
+    <LinearLayout style="@style/horizontal_black_line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_horizontal_margin"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="验证码："
+            android:layout_gravity="center"
+            />
+        <EditText
+            android:id="@+id/et_code_find"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="请输入验证码"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textSize="@dimen/edit_text"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_again_find"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="倒计时"
+            android:textSize="@dimen/small_text"
+            />
+
+        <ImageView
+            android:id="@+id/iv_code_find"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/my"
+            />
+    </LinearLayout>
+    <LinearLayout style="@style/horizontal_black_line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_horizontal_margin"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密码："
+            android:layout_gravity="center"
+            />
+        <EditText
+            android:id="@+id/et_psw_find"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="请输入密码"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textSize="@dimen/edit_text"
+            />
+    </LinearLayout>
+
+    <LinearLayout style="@style/horizontal_black_line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_horizontal_margin"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密码："
+            android:layout_gravity="center"
+            />
+        <EditText
+            android:id="@+id/et_con_psw_find"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="请输入密码"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textSize="@dimen/edit_text"
+
+            />
+    </LinearLayout>
+    <LinearLayout style="@style/horizontal_black_line"/>
+
+    <Button
+        android:id="@+id/bt_finished_find"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="完成"
+        />
+
+</LinearLayout>

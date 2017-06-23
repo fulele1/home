@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+        <LinearLayout
+            android:id="@+id/layout_one_frag_main"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@mipmap/pic2"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            >
+            <TextView
+                android:id="@+id/tv_notice_main_frag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/activity_horizontal_marginm"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="@dimen/activity_horizontal_marginm"
+                android:background="@color/white"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/search64"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_search_main_frag"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/edit_hint"
+                    android:textSize="@dimen/edit_text"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:focusable="false"
+                    />`
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_two_frag_main"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            >
+            <TextView
+                android:id="@+id/tv_buy_frag_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="购房"
+                android:drawableTop="@mipmap/buy128"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="@dimen/edit_text"
+                />
+
+            <TextView
+                android:id="@+id/tv_rent_frag_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="租房"
+                android:drawableTop="@mipmap/rent128"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="@dimen/edit_text"
+                />
+
+            <TextView
+                android:id="@+id/tv_agency_frag_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="代办业务"
+                android:drawableTop="@mipmap/agency128"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="@dimen/edit_text"
+                />
+        </LinearLayout>
+
+        <LinearLayout style="@style/horizontal_black_line"/>
+
+        <LinearLayout
+            android:id="@+id/layout_three_frag_main"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <TextView
+                        android:id="@+id/tv_one_frag_main"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="一居室"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textSize="@dimen/edit_text"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_two_frag_main"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="两居室"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textSize="@dimen/edit_text"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_three_frag_main"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="三居室"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textSize="@dimen/edit_text"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    >
+
+                    <TextView
+                        android:id="@+id/tv_s_frag_main"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="城南"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textSize="@dimen/edit_text"
+                        />
+                    <TextView
+                        android:id="@+id/tv_m_frag_main"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="城中"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textSize="@dimen/edit_text"
+                        />
+                    <TextView
+                        android:id="@+id/tv_n_frag_main"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="城北"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textSize="@dimen/edit_text"
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    >
+                    <TextView
+                        android:id="@+id/tv_b_frag_main"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="70万以下"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textSize="@dimen/edit_text"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_mm_frag_main"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="70-100万"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textSize="@dimen/edit_text"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_t_frag_main"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="100万以上"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textSize="@dimen/edit_text"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/horizontal_black_line"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/layout_four_frag_main"
+            >
+            <com.bigkoo.convenientbanner.ConvenientBanner
+                android:id="@+id/cb_main_frg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:canLoop="true"
+                android:layout_gravity="bottom"
+                >
+            </com.bigkoo.convenientbanner.ConvenientBanner>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="房源推荐"
+                android:gravity="center"
+                />
+            <ListView
+                android:id="@+id/list_main_frag"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </ListView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+

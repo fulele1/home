@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Home</string>
+    <string name="main_Page">主页</string>
+    <string name="recommend">推荐</string>
+    <string name="mine">我的</string>
+    <string name="notice">家，还是实在的好。</string>
+    <string name="title">给您一个最温馨的港湾。</string>
+    <string name="edit_hint">请输入您想查询的区域</string>
+    <string name="search">搜索</string>
+    <string name="search_history">搜索历史</string>
+    <string name="area">区域</string>
+    <string name="price">价格</string>
+    <string name="type">房型</string>
+    <string name="more">更多</string>
+</resources>
